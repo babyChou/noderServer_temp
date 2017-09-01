@@ -5,7 +5,7 @@ var AWS = require("aws-sdk");
 /* GET home page. */
 router.get('/', function(req, res, next) {
   // res.sendStatus(403);
-  res.send('sada');
+  res.send('work');
 });
 
 module.exports = router;

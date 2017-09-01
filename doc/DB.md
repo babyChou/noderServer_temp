@@ -22,3 +22,8 @@ Sort Key: *
 |-------------------|-------|---------------|--------------|
 | **IOT_DEVICE_ID** | TOKEN | REFRESH_TOKEN | EXPIRES_TIME |
 | **                |       |               |              |
+
+
+http://docs.aws.amazon.com/amazondynamodb/latest/gettingstartedguide/GettingStarted.NodeJs.04.html
+
+ { Items: [], Count: 0, ScannedCount: 0 }

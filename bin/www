@@ -8,7 +8,7 @@ var app = require('../app');
 var debug = require('debug')('firstapp:server');
 var http = require('http');
 var https = require('https');
-var ssl = require('../sslLicense');
+var ssl = require('../shared/sslLicense');
 
 /**
  * Get port from environment and store in Express.

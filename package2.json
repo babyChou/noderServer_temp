@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "pm2 start ./bin/www --watch & pm2 log",
     "env": "set DEBUG=firstapp:* & node --debug ./bin/www",
     "pm2": "pm2 start --node-args=\"--debug\" --watch ./bin/www",
     "ispt": "node-inspector &"
