@@ -9,8 +9,8 @@ const logger = require('../shared/logger');
 const router = express.Router();
 const awsDB = db.docClient;
 
-const API_KEY = 'key=AAAAH9CPAuk:APA91bFdtA-Xc8Hilz9qdrWdT94lbbWdA2rNhhUUDk37ELXkzxYMXgjiOEdO6pzoqfejU4JFFtANSnU9hXRWZAc7XHfxCZbmY_5X9CIrG4Fz8kMxiLPNgOnpCMcVGLLVaM4OpgoerQi4';
-const SENDER_ID = '136643019497';
+const API_KEY = 'key=';
+const SENDER_ID = '';
 //https://fcm.googleapis.com/fcm/send
 const HOSTNAME = 'android.googleapis.com';
 const PATH = '/gcm/send';
